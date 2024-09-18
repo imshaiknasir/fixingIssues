@@ -6,21 +6,21 @@ const config = {
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
   expect: {
-  
+
     timeout: 5000
   },
-  
-  reporter: 'html',
+
+  reporter: [['html', { open: 'never' }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
 
-    browserName : 'chromium',
-    headless : false,
-    screenshot : 'on',
-    trace : 'on',//off,on
-    
-    
-    
+    browserName: 'chromium',
+    headless: true,
+    screenshot: 'on',
+    trace: 'on',//off,on
+
+
+
   },
 
 
