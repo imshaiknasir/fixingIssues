@@ -6,7 +6,6 @@ const config = {
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
   expect: {
-
     timeout: 5000
   },
 
@@ -18,9 +17,7 @@ const config = {
     headless: true,
     screenshot: 'on',
     trace: 'on',//off,on
-
-
-
+    video: 'on',
   },
 
 
